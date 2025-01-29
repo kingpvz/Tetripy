@@ -14,7 +14,7 @@ def die():
     w.destroy()
     sys.exit()
 w.protocol("WM_DELETE_WINDOW", die)
-#t.w.iconbitmap("data/favicon.ico")
+w.iconbitmap("data/favicon.ico")
 
 c = tkinter.Canvas(w, width=610, height=607, bg="#fff")
 c.pack()

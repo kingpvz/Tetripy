@@ -1,4 +1,4 @@
-VERSION = "1.0"
+VERSION = "1.01"
 
 CONTROLS = """A/Left = Left
 S/Down = Down Faster
